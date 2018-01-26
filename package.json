@@ -1,0 +1,29 @@
+{
+  "name": "@ambassify/phonenumber",
+  "version": "1.0.1",
+  "description": "Phonenumber utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --fix . && node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambassify/phonenumber.git"
+  },
+  "keywords": [
+    "phonenumber"
+  ],
+  "author": "Ambassify <dev@ambassify.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambassify/phonenumber/issues"
+  },
+  "homepage": "https://github.com/ambassify/phonenumber#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-ambassify": "^1.2.0"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.0.7"
+  }
+}
